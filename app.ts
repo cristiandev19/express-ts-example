@@ -6,6 +6,7 @@ import config from './src/config/index';
 import { logErrors, errorHandler } from './src/middlewares/error.middleware';
 import * as passport from 'passport';
 import jwtStrategy from './src/strategies/jwt';
+
 class App {
   public app: express.Application;
 

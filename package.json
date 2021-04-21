@@ -1,8 +1,8 @@
 {
-  "name": "express-api-example",
+  "name": "express-ts-example",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devjs": "nodemon app.js",
@@ -10,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cristiandev19/express-api-example.git"
+    "url": "git+https://github.com/cristiandev19/express-ts-example"
   },
   "keywords": [
     "express",
-    "api"
+    "api",
+    "ts"
   ],
   "author": "Cristian Sotomayor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cristiandev19/express-api-example/issues"
+    "url": "https://github.com/cristiandev19/express-ts-example/issues"
   },
-  "homepage": "https://github.com/cristiandev19/express-api-example#readme",
+  "homepage": "https://github.com/cristiandev19/express-ts-example#readme",
   "dependencies": {
     "@types/bcrypt-nodejs": "0.0.31",
     "bcrypt": "^5.0.0",
